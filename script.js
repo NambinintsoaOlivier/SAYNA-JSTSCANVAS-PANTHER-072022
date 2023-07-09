@@ -25,3 +25,11 @@ window.addEventListener('load', () => {
         }
     })
 })
+
+// bouton voir plus
+function scrollToSection(divId) {
+    var section = document.getElementById(divId);
+    section.scrollIntoView({
+        behavior: 'smooth'
+    });
+}
