@@ -33,3 +33,13 @@ function scrollToSection(divId) {
         behavior: 'smooth'
     });
 }
+
+// animation et fixation du barre de reseaux sociaux
+window.addEventListener('load', function() {
+    var barre = document.getElementById('barre');
+    barre.classList.add('animation');
+})
+window.addEventListener('scroll', function() {
+    var barre = document.getElementById('barre');
+    barre.style.position = 'fixed';
+})
