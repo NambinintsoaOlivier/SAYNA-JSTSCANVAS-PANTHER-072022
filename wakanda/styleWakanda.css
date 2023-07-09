@@ -1,0 +1,93 @@
+.bg-wakanda {
+    background-image: url(image/Pantherwakanda1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin-top: -60px;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.bg {
+    background-image: url(image/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    top: -20px;
+}
+
+.wakanda-head {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-self: center;
+}
+
+.wakanda-head h1 {
+    font-family: beyno;
+    width: 500px;
+    font-size: 45px;
+}
+
+.wakanda-head h3 {
+    font-family: wakanda;
+    letter-spacing: 10px;
+}
+
+.wakanda-head .citation {
+    width: 300px;
+    text-align: justify;
+}
+
+.contenu-wakanda {
+    height: auto;
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    position: relative;
+    margin-top: -700px;
+    text-align: justify;
+}
+
+.section {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.text-wakanda {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wakanda .bloc {
+    justify-self: center;
+    align-self: center;
+    width: 500px;
+}
+
+.cadre {
+    /* background-color: #372b9b; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.cont-wakanda {
+    width: 85%;
+    margin: 0 auto;
+}

@@ -1,0 +1,126 @@
+@media all and (max-width: 800px) {
+    nav {
+        width: 90%;
+    }
+    .text-head {
+        margin-left: 12px;
+    }
+    .text-head h1 {
+        font-size: 24px;
+    }
+    .text-head h2 {
+        font-size: 20px;
+    }
+    .lineDown {
+        margin-left: 8px;
+    }
+    ul {
+        font-size: 11px;
+        grid-gap: 4px;
+    }
+    .contenu-barre {
+        height: 160px;
+        /* overflow-x: scroll; */
+    }
+    .barre {
+        margin-left: 36px;
+    }
+    .barre .fleche {
+        /* display: none; */
+        background-color: rgb(0, 67, 99);
+    }
+    .contenu-principal {
+        width: 125px!important;
+        height: 186px!important;
+    }
+    .contenu-photo,
+    .contenu-text {
+        margin: 0px 0px 0px 8px;
+        height: 148px;
+    }
+    .contenu-photo {
+        width: 130px!important;
+        height: 160px!important;
+    }
+    .bloc h3 {
+        font-size: 14px;
+    }
+    .div-bloc {
+        display: grid;
+    }
+    .section1 div {
+        margin: 30px 15px 0px 20px;
+    }
+    .section1,
+    .section2 {
+        width: 90%;
+    }
+    .formulaire {
+        width: 77%;
+        border-radius: 30px;
+    }
+    form h1 {
+        font-size: 14px;
+    }
+    .foot-info1 div h2 {
+        font-size: 14px;
+    }
+    .ronde {
+        width: 100px;
+        height: 100px;
+    }
+    .sayna-foot .sayna-marvel {
+        width: 50px;
+    }
+    .sayna-foot {
+        margin: 0;
+    }
+    .foot-info {
+        margin: 4px;
+    }
+    .foot {
+        padding: 20px;
+    }
+    /* page wakanda */
+    .wakanda-head h1 {
+        font-size: 22px!important;
+    }
+    .wakanda-head h3 {
+        letter-spacing: 6px!important;
+        font-size: 10px;
+    }
+    .wakanda-head .citation {
+        width: 230px!important;
+    }
+    .contenu-wakanda {
+        display: grid!important;
+    }
+    /* enigme */
+    .head-enigme {
+        display: grid;
+    }
+    .photo1 {
+        top: -40px;
+    }
+    .text-head {
+        width: 100%;
+    }
+    .cadre-border img,
+    .cadre-border2 img {
+        max-width: 90%;
+    }
+    .row {
+        margin: 0px 20px 50px 19px;
+    }
+    .formulaire-enigme {
+        margin: 0px 0px 0px 50px;
+    }
+    .cadre-border p,
+    .cadre-border2 p {
+        padding: 0px;
+    }
+    .ligne img {
+        width: 22px;
+        height: 40px;
+    }
+}
