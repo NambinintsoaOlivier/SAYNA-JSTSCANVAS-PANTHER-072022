@@ -104,3 +104,14 @@ window.addEventListener('load', function() {
         }
     });
 });
+
+
+// zoom image
+var image = document.getElementById("Challa");
+
+image.addEventListener("mouseover", function() {
+    this.classList.add("zoomed");
+});
+image.addEventListener("mouseout", function() {
+    this.classList.remove("zoomed");
+});
