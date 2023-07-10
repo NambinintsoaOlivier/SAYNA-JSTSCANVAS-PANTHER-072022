@@ -1,4 +1,7 @@
 @media all and (max-width: 800px) {
+    .reseaux-s {
+        width: 20px;
+    }
     nav {
         width: 90%;
     }
@@ -18,12 +21,16 @@
         font-size: 11px;
         grid-gap: 4px;
     }
+    .section2 img {
+        height: 270px;
+        width: 230px;
+    }
     .contenu-barre {
-        height: 160px;
+        height: 180px;
         /* overflow-x: scroll; */
     }
     .barre {
-        margin-left: 36px;
+        margin-left: 30px;
     }
     .barre .fleche {
         /* display: none; */
@@ -35,12 +42,13 @@
     }
     .contenu-photo,
     .contenu-text {
-        margin: 0px 0px 0px 8px;
+        margin: 0px 0px 0px 22px;
         height: 148px;
+        width: 230px;
     }
     .contenu-photo {
-        width: 130px!important;
-        height: 160px!important;
+        width: 230px!important;
+        height: 240px!important;
     }
     .bloc h3 {
         font-size: 14px;
@@ -53,7 +61,8 @@
     }
     .section1,
     .section2 {
-        width: 90%;
+        width: 100%;
+        margin-left: 10px;
     }
     .formulaire {
         width: 77%;
@@ -81,6 +90,10 @@
     .foot {
         padding: 20px;
     }
+    .pop {
+        width: 75%;
+        height: 380px;
+    }
     /* page wakanda */
     .wakanda-head h1 {
         font-size: 22px!important;
@@ -100,7 +113,7 @@
         display: grid;
     }
     .photo1 {
-        top: -40px;
+        top: -20px;
     }
     .text-head {
         width: 100%;
