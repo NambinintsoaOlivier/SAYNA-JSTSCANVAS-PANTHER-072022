@@ -61,8 +61,8 @@ const quizArray = [{
     },
     {
         id: "2",
-        question: "Quel est l’objet fétiche de Double Face ?",
-        correct: "Une pièce",
+        question: "",
+        correct: "",
     }
 
 ];
@@ -70,7 +70,7 @@ const quizArray = [{
 firstEnvoyer.addEventListener("click", () => {
     var reponse1 = document.getElementById('reponse').value;
     if (reponse1 != "") {
-        if (reponse1 != "izy") {
+        if (reponse1 != "SI JE SUIS FIDELE C’EST A CE TRONE PEU IMPORTE QUI MONTE DESSUS") {
             correct.classList.add('none');
             incorrect.classList.remove('none');
             popup();
@@ -120,7 +120,7 @@ suivant.addEventListener('click', displayNext = () => {
         document.querySelector('.valider1').addEventListener('click', () => {
             var reponse1 = document.getElementById('reponse').value;
             if (reponse1 != "") {
-                if (reponse1 != "bbb") {
+                if (reponse1 != "La puce et le bulldozer ont rencontré un obstacle. Il semble que ce soit juste une grosse branche mais il faudrait la déplacer pour pouvoir continuer la construction en toute sécurité. Je vais m'en occuper et demander au reste de l'équipe de bien vérifier qu'il n'y a pas d'autres obstacles sur notre chemin") {
                     correct.classList.add('none');
                     incorrect.classList.remove('none');
                     popup();
@@ -146,7 +146,7 @@ suivant.addEventListener('click', displayNext = () => {
         document.querySelector('.valider2').addEventListener('click', () => {
             var reponse1 = document.getElementById('reponse').value;
             if (reponse1 != "") {
-                if (reponse1 != "ggg") {
+                if (reponse1 != "LE ROI LION") {
                     correct.classList.add('none');
                     incorrect.classList.remove('none');
                     popup();
